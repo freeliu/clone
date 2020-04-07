@@ -263,3 +263,5 @@ return clone;
 if (typeof module === 'object' && module.exports) {
   module.exports = clone;
 }
+
+export const clone=clone
