@@ -1,4 +1,4 @@
-var clone = (function() {
+export const clone = (function() {
 'use strict';
 
 function _instanceof(obj, type) {
@@ -264,4 +264,4 @@ if (typeof module === 'object' && module.exports) {
   module.exports = clone;
 }
 
-export const clone=clone
+
