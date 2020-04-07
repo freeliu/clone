@@ -1,4 +1,4 @@
-export const clone = (function() {
+export var clone = (function() {
 'use strict';
 
 function _instanceof(obj, type) {
