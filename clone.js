@@ -260,8 +260,5 @@ clone.__getRegExpFlags = __getRegExpFlags;
 return clone;
 })();
 
-if (typeof module === 'object' && module.exports) {
-  module.exports = clone;
-}
 
 
